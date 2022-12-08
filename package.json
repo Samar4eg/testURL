@@ -1,9 +1,12 @@
 {
+  "homepage": "http://Samar4eg.github.io/InitialPlayerOffering/my-app",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
